@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Pokeinfo = ({data}) => {
-    console.log(data);
+    // console.log(data);
     // ↑どうしてonClick無いのに、カードクリックして動いたの？
   return (
     <>
