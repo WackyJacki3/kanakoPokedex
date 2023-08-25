@@ -6,12 +6,25 @@
 body{
     background-color: #fceec8;
 }
-.container{
+.container {
     width: 90%;
     margin: auto;
     padding-top: 100px;
     display: flex;
+    flex-direction: column;
 }
+
+.container-search {
+    width: 52%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .left-content, .right-content{
     flex-basis: 50%;
 }
